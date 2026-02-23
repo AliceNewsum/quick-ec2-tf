@@ -45,6 +45,7 @@ resource "aws_instance" "main" {
     TimeZone    = "EST"
     JunkTag01   = "I just need to update this to force a run again"
     JunkTag02   = "See JunkTag01"
+    JunkTag03   = "See JunkTag01 and 2"
 
   }
 }
