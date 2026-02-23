@@ -39,6 +39,7 @@ resource "aws_instance" "main" {
     OSType      = "Amazon Linux"
     OSVersion   = "2023"
     OSKernel    = "Kernel 6"
+    Date        = "23/2/2026"
 
   }
 }
