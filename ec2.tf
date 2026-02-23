@@ -41,6 +41,7 @@ resource "aws_instance" "main" {
     OSKernel    = "Kernel 6"
     Date        = "23/2/2026"
     TimeZone    = "EST"
+    JunkTag01   = "I just need to update this to force a run again"
 
   }
 }
